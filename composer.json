@@ -1,0 +1,18 @@
+{
+    "name": "aristides/php-imagine",
+    "description": "Redimensionar imagens com PHP com Imagine",
+    "authors": [
+        {
+            "name": "Aristides Neto",
+            "email": "aristidesbneto@gmail.com"
+        }
+    ],
+    "require": {
+        "imagine/imagine": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aristides\\": "src/"
+        }
+    }
+}
